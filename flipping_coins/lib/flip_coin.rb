@@ -8,6 +8,7 @@ require_relative 'user'
       user = User.new # create a new instance 
       puts "Enter flip"
       score = gets.chomp
+      break if score != "flip"
 
       10.times { user.flip_coin } 
    
