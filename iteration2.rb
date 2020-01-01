@@ -18,9 +18,11 @@ def price(dishes)
 end
 
 puts price(dishes)
+#-> 10.99
 
 def price2(dishes)
   dishes[7][:price]
 end 
 
 puts price2(dishes)
+#=> 3.99
