@@ -17,3 +17,4 @@ end
 
 person = Person.new("Bob", 60, 1.7,)
 puts person.bmi
+#=> Bob's BMI is: 20.761245674740486
